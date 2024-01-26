@@ -1,0 +1,46 @@
+section {
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  gap: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.chat-container {
+  width: 300px;
+  border: 2px solid var(--white);
+  border-radius: 0.5rem;
+}
+
+.chats {
+  height: 200px;
+  overflow-y: auto;
+  padding: 0.5rem;
+}
+
+.message {
+  width: calc(100% - 20px);
+  padding: 0.5rem;
+  margin: 10px;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  color: var(--black);
+}
+
+.send {
+  width: calc(100% - 20px);
+  padding: 0.5rem;
+  margin: 10px;
+  background-color: var(--black);
+  color: var(--white);
+  border: 2px var(--white) solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
