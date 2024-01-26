@@ -23,7 +23,6 @@ server.on("connection", (socket) => {
     console.log("Cliente desconectado");
 
     clients.pop(socket);
-    console.log(clients);
   });
 });
 
